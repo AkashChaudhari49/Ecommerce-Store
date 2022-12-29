@@ -85,13 +85,13 @@ li {
 ${"" /* resuable code section  */}
 
 .container {
-  max-width: 120rem;
+  max-width: 80rem;
   margin: 0 auto;
 }
 
 .grid {
   display: grid;
-  gap: 9rem;
+  gap: 5rem;
 }
 
 .grid-two-column {
@@ -114,7 +114,7 @@ ${"" /* resuable code section  */}
   .common-heading {
       font-size: 3.8rem;
       font-weight: 600;
-      margin-bottom: 6rem;
+      margin-bottom: 4rem;
       text-transform: capitalize;
     }
 
@@ -157,9 +157,9 @@ input, textarea{
     cursor: pointer;
     }
 
-@media (max-width: ${({ theme }) => theme.media.tab}) {
+  @media (max-width: ${({ theme }) => theme.media.tab}) {
     .container {
-    max-width: 130rem;
+    max-width: 110rem;
     padding: 0 3.2rem;
   }
   }
@@ -167,7 +167,7 @@ input, textarea{
    @media (max-width: ${({ theme }) => theme.media.mobile}) {
        html {
       font-size: 50%;
-    }
+    } 
 
 .grid{
   gap: 3.2rem;
